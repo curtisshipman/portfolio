@@ -1,0 +1,206 @@
+/* * {
+    font-family: "League Gothic", sans-serif;
+    font-family: "Libre Bodoni", serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Sono", sans-serif;
+} */
+
+#title {
+    padding-top: 25px;
+}
+div {
+    display: block;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #afafaf, #363636, #afafaf);
+    background-size: 180% 180%;
+    animation: gradient-animation 16s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.interests {
+    height: 50px;
+}
+
+body {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+.shipman-attributes {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+h1 {
+    color: white;
+    font-size: 7vw;
+    margin: 2rem auto 0 auto;
+    font-family: "Libre Bodoni", serif;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 2rem auto 0 auto;
+    font-family: "Libre Bodoni", serif;
+    padding-bottom: 1.2rem;
+}
+
+h3 {
+    font-size: 2.5em;
+    margin: 2rem auto 0 auto;
+    /* font-family: "Libre Bodoni", serif; */
+    padding-bottom: 1.2rem;
+}
+.hero-container {
+    padding-top: 1rem;
+    position: relative;
+    color: white;
+    margin-top: 10px;
+}
+
+.experience {
+    list-style: none;
+    padding-left: 0;
+}
+
+.product-holder {
+    position: relative;
+    display: block;
+}
+
+.plus-image {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.profile-img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.aboutme {
+    text-align: left;
+}
+
+#hero_ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 1.1rem;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.sectionh2left {
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.descriptions {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+
+#contactme ul {
+    list-style-type: none;
+}
+
+.contact-details {
+    font-size: 1em;
+    margin: 2rem auto 0 auto;
+}
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+
+.resume div .section-title h2 {
+    font-family: "Libre Bodoni", serif;
+}
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+    font-family: "Quicksand", sans-serif;
+}
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+    padding-left: 40px;
+    text-align: left;
+    font-size: 1em;
+    list-style-type: none;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}

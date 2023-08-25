@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Libre+Bodoni:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@100;200;300;400&family=Roboto:ital,wght@0,400;0,700;1,700&family=Sono&family=Roboto+Mono&family=Quicksand&display=swap"
+        rel="stylesheet"
+    />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+        rel="stylesheet"
+    />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio Page for Curtis Shipman</title>
+    </head>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <body>
+        <!-- Header and Navbar -->
+        <section id="header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href=""
+                        ><img
+                            height="50px"
+                            src="./images/logo cropped.png"
+                            alt="shipman logo"
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#socials"
+                                    >Social Links</a
+                                >
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Menu
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#aboutme"
+                                            >About Me</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="#interests"
+                                            >Interests</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#resume"
+                                            >Resume</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="#contactme"
+                                            >Contact Me</a
+                                        >
+                                    </li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="https://github.com/curtisshipman"
+                                            target="”_blank”"
+                                            >GitHub</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="https://www.linkedin.com/in/clshipman"
+                                            target="”_blank”"
+                                            >LinkedIn</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a
+                                    class="nav-link disabled"
+                                    aria-disabled="true"
+                                    >Disabled</a
+                                >
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- Title -->
+        <section id="title">
+            <div
+                class="container pt-5 hero-container gradient-background x-4 py-5 my-5 text-center"
+            >
+                <div class="row text-center">
+                    <div class="col-xs-6 col-lg-8 text-center"></div>
+
+                    <h1 class="text-white fw-bold">Curtis Shipman</h1>
+                    <div class="col-lg-8 mx-auto">
+                        <p class="shipman-attributes mb-4">
+                            Leadership | Business | Operations | Information
+                            Technology <br />
+                            <i> All around mensch</i>
+                        </p>
+
+                        <div
+                            class="d-grid gap-2 d-sm-flex justify-content-sm-center"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="aboutme">
+            <div class="container pt-5 col-xxl-10 px-4 py-5 border-bottom">
+                <div
+                    class="row flex-lg-row-reverse align-items-center g-5 py-5"
+                >
+                    <div class="col-lg-6">
+                        <img
+                            src="./images/Curtis Photo.jpg"
+                            height="400px"
+                            alt="picture of Curtis Shipman, a strikingly handsome fella"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div class="col-lg-6 aboutme">
+                        <h2
+                            class="display-5 fw-bold text-body-emphasis lh-1 mb-3"
+                        >
+                            Business and Information Technology Leader
+                        </h2>
+                        <p class="lead"></p>
+                        <ul id="hero_ul">
+                            <li>Leadership and Process Improvement</li>
+                            <li>Web Development and Information Security</li>
+                            <li>All around good dude</li>
+                        </ul>
+
+                        <div
+                            class="d-grid gap-2 d-md-flex justify-content-md-start"
+                        >
+                            <a href="mailto:curtis.shipman@gmail.com"
+                                ><button
+                                    type="button"
+                                    class="btn btn-info btn-lg px-4"
+                                >
+                                    Email Me
+                                </button></a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests -->
+        <section id="interests">
+            <div class="container pt-5 col-xxl-10">
+                <h2 class="sectionh2left" style="font-size: 3em">Interests</h2>
+            </div>
+
+            <div class="container pb-5 border-bottom col-xxl-10">
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img
+                            src="./images/istockphoto-162337443-612x612.jpg"
+                            height="150"
+                            alt="illustration of man fly fishing for trout on a small river"
+                        />
+                        <title>Fly Fishing</title
+                        ><rect
+                            width="100%"
+                            height="100%"
+                            fill="var(--bs-secondary-color)"
+                        ></rect>
+                        <h2 class="fw-normal">Fly Fishing</h2>
+                        <div class="descriptions">
+                            <p>
+                                I love being on a peaceful river, surrounded by
+                                nature, and fly fishing all day. My favorite
+                                guide in California focuses on Yosemite and the
+                                surrounding areas.
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <a
+                                    class="btn btn-secondary"
+                                    href="https://sierraflyfisher.com/"
+                                    target="_blank"
+                                    >My Favorite Guide »</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img
+                            src="./images/blog-13-web-dev-technologies-featured.png"
+                            height="150"
+                            alt="picture with Development symbols indicating coding"
+                        />
+                        <title>Technology</title>
+                        <rect
+                            width="100%"
+                            height="100%"
+                            fill="var(--bs-secondary-color)"
+                        ></rect>
+
+                        <h2 class="fw-normal">Technology</h2>
+                        <div class="descriptions">
+                            <p>
+                                I love technology and learning. I am currently
+                                in a Front End Web Development Bootcamp and
+                                start a Masters of Cybersecurity program in
+                                October 2023.
+                            </p>
+                        </div>
+
+                        <p>
+                            <a
+                                class="btn btn-secondary"
+                                href="https://appbrewery.com/"
+                                target="_blank"
+                                >Best Dev Bootcamps »</a
+                            >
+                        </p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img src="./images/bayern-munich-bundesliga-title.jpg""
+                        height="150" alt="FC Bayern holing up the League
+                        champion trophy"/>
+                        <title>Bayern Munich</title>
+                        <rect
+                            width="100%"
+                            height="100%"
+                            fill="var(--bs-secondary-color)"
+                        ></rect>
+
+                        <h2 class="fw-normal">Football</h2>
+                        <div class="descriptions">
+                            <p>
+                                And lastly this, I LOVE football (soccer)! My
+                                favorite team is Bayern Munich in the
+                                Bundesliga. They have won 11 consecutive titles
+                                and we just signed Harry Kane!
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <a
+                                    class="btn btn-secondary"
+                                    href="https://fcbayern.com/en/news/2023/08/fc-bayern-hold-these-records-in-the-bundesliga"
+                                    target="_blank"
+                                    >Bayern Munich »</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <!-- /.row -->
+            </div>
+        </section>
+
+        <!-- Resume -->
+        <section id="resume" class="resume">
+            <div class="container pt-5 pb-5 border-bottom col-xxl-10">
+                <div class="section-title">
+                    <h2>Resume of Curtis Shipman, MBA</h2>
+
+                    <p>
+                        Senior Operations Executive | Strategic Leadership |
+                        Operational Excellence | Project Management |
+                        Information Technology | Profit-driven MBA
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div
+                        class="col-lg-6 aos-init aos-animate"
+                        data-aos="fade-up"
+                    >
+                        <h3 class="resume-title">Summary</h3>
+                        <div class="resume-item pb-0">
+                            <p>
+                                <em
+                                    >Top-performing leader with strong
+                                    experience developing effective business
+                                    strategies focused on IT project initiation
+                                    and management, enterprise business system
+                                    management and analysis, and business to IT
+                                    relationship management. Known for
+                                    outstanding business and leadership acumen
+                                    used to drive team development and manage
+                                    change.</em
+                                >
+                            </p>
+                        </div>
+
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>
+                                Master of Business Administration,
+                                Entrepreneurship
+                            </h4>
+                            <h5>2016</h5>
+                            <p>
+                                <em
+                                    >Graziadio Business School, Pepperdine
+                                    University, Malibu, CA</em
+                                >
+                            </p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>
+                                Bachelor of Business Administration, Business
+                                Management
+                            </h4>
+                            <h5>2009</h5>
+                            <p><em>Walden University, Minneapolis, MN</em></p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Certified Scrum Master</h4>
+                            <h5>2023</h5>
+                            <p>
+                                <em
+                                    ><a
+                                        href="https://scrumalliance.org"
+                                        target="_blank"
+                                        >ScrumAlliance.org</a
+                                    >
+                                    <img
+                                        src="./images/seal-csm.png"
+                                        height="50px"
+                                /></em>
+                            </p>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Professional Scrum Master 1</h4>
+                            <h5>2023</h5>
+                            <p>
+                                <em
+                                    ><a
+                                        href="https://www.scrum.org"
+                                        target="_blank"
+                                        >Scrum.org</a
+                                    >
+                                    <img src="./images/psmi.png" height="50px"
+                                /></em>
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 aos-init aos-animate"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+                            <h4>Senior Consultant</h4>
+                            <h5>2020 - Present</h5>
+                            <p><em>The DeLeon Group, LLC</em></p>
+                            <!-- <ul>
+                      <li>Sheet Barbary Coast long boat bring a spring upon her cable prow sutler cutlass Jack Ketch landlubber or just lubber lugsail.</li>
+                      <li>Long boat fathom hail-shot spyglass red ensign measured fer yer chains dead men tell no tales ho crack Jennys tea cup execution dock.  </li>
+                      <li>Booty cackle fruit squiffy hearties six pounders shrouds pressgang yo-ho-ho wherry spirits. </li>
+                      </ul> -->
+                        </div>
+                        <div class="resume-item">
+                            <h4>Senior Director, Quality Operations</h4>
+                            <h5>2016 - 2020</h5>
+                            <p><em>Harbor Freight Tools</em></p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Director, Production Operations</h4>
+                            <h5>2013 - 2016</h5>
+                            <p><em>Harbor Freight Tools</em></p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>IT Project Manager</h4>
+                            <h5>2012 - 2013</h5>
+                            <p><em>Harbor Freight Tools</em></p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Business Solutions Architect</h4>
+                            <h5>2011 - 2012</h5>
+                            <p><em>Harbor Freight Tools</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section id="contactme">
+            <div class="container pb-5 pt-5 border-bottom col-xl-10">
+                <div class="row">
+                    <div class="section-title col-lg-4">
+                        <h3>Contact Me:</h3>
+                    </div>
+
+                    <div class="contact-details col-lg-4">
+                        <ul>
+                            <li>
+                                <a href="mailto:curtis.shipman@gmail.com">
+                                    email: curtis.shipman@gmail.com</a
+                                >
+                            </li>
+                            <li>
+                                <a href="tel:+13232440262">
+                                    Text / Cell: +1 (323)244-0262</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container pt-5 col-xxl-10">
+                <div class="py-3 my-4">
+                    <ul
+                        class="nav justify-content-center border-bottom pb-5 mb-3"
+                    >
+                        <li class="nav-item">
+                            <a
+                                href="#"
+                                class="nav-link px-2 text-body-secondary"
+                                ><u>Home</u></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="#aboutme"
+                                class="nav-link px-2 text-body-secondary"
+                                ><u>About Me</u></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="#interests"
+                                class="nav-link px-2 text-body-secondary"
+                                ><u>Interests</u></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="#resume"
+                                class="nav-link px-2 text-body-secondary"
+                                ><u>Resume</u></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="#contactme"
+                                class="nav-link px-2 text-body-secondary"
+                                ><u>Contact Me</u></a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Links-->
+        <section id="socials">
+            <div>
+                <div class="container pt-5 col-10">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a class="text-body-secondary" href="#">
+                                <p class="text-center text-body-secondary">
+                                    © 2023 Curtis Shipman
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-sm-1">
+                            <a
+                                class="text-body-secondary"
+                                href="https://www.instagram.com/curtisshipmanbrick/"
+                                target="_blank"
+                            >
+                                <img
+                                    src="./images/Instagram_Glyph_Gradient.png"
+                                    width="24"
+                                    height="24"
+                                    alt="instagram logo"
+                                />
+                            </a>
+                        </div>
+                        <div class="col-sm-1">
+                            <a
+                                class="text-body-secondary"
+                                href="https://www.linkedin.com/in/clshipman"
+                                target="_blank"
+                                ><img
+                                    src="./images/LI-In-Bug.png"
+                                    width="24"
+                                    height="24"
+                                    alt="linkedin logo"
+                                />
+                            </a>
+                        </div>
+                        <div class="col-sm-1">
+                            <a
+                                class="text-body-secondary"
+                                href="https://www.github.com/curtisshipman"
+                                target="_blank"
+                                ><img
+                                    src="./images/github-mark.svg"
+                                    width="24"
+                                    height="24"
+                                    alt="github logo"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
